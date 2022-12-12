@@ -16,7 +16,7 @@ int climbStairs(int n){
 }
 
 
--------------------------- OR --------------------------
+----------------------- OR --------------------------
 
 
 int climbStairs(int n){
@@ -38,4 +38,21 @@ int climbStairs(int n){
 }
 
 
+----------------------- OR --------------------------
 
+
+
+int climbStairs(int n){
+        int n1=1, n2=1;
+        int n3;
+        for( int k=2;k<=n;k++) {
+            n3 = n1+n2;
+            n1 = n2;
+            n2 = n3;
+
+        }
+        if( n == 1)
+          return 1;
+          else 
+        return n3;
+}
