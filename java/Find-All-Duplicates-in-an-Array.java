@@ -1,7 +1,7 @@
 class Solution {
     public List<Integer> findDuplicates(int[] nums) {
         
-            int k = 0;
+             int k = 0;
             // s equals to length of the array 
             int s = nums.length - 1;
             // sorting the array using while loop 
