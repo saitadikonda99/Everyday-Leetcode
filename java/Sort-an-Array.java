@@ -12,7 +12,7 @@ class Solution {
 
      void sort( int[] nums , int low , int hi) {
     
-    // if the low is greater than or equal to high then simply return to sortArray method 
+      // if the low is greater than or equal to high then simply return to sortArray method 
      if( low >= hi ) {
          return;
      }
