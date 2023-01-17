@@ -17,7 +17,7 @@ class Solution {
         // start = mid + 1
 
             if(  x > mid*mid  ) {
-                ans = mid;
+                 ans = mid;
                  start = mid + 1;
             }
            // if mid * mid is greater than the x it means 
